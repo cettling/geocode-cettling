@@ -38,15 +38,6 @@ WSADATA wsaData;
 #define SUBST_API_KEY   "{API_KEY}"
 #define SUBST_REQ_ADDR  "{REQ_ADDR}"
 
-//test
-#define GOOGLE_API_KEY  "AIzaSyArGoihZ66qRPdnYqnSox2gofuhWrYIE4g"
-//  AIzaSyCByO0v_YMnDkt1qWlD3egY1oDA6O7XhBo 
-// https://maps.googleapis.com/maps/api/geocode/json?address=3549+Jordan+Rd,+Oakland+CA&key=AIzaSyCByO0v_YMnDkt1qWlD3egY1oDA6O7XhBo
-// https://maps.googleapis.com/maps/api/staticmap/json?address=3549+Jordan+Rd,+Oakland+CA&key=AIzaSyArGoihZ66qRPdnYqnSox2gofuhWrYIE4g
-
-#define HERE_APP_ID     "nsAZMhXUr4UIVZOdyUjS"
-#define HERE_APP_CODE   "5IRTYqBmncHJhDNzyahEiA"
-// https://geocoder.api.here.com/6.2/geocode.json?app_id=nsAZMhXUr4UIVZOdyUjS&app_code=5IRTYqBmncHJhDNzyahEiA&searchtext=3549+Jordan+Rd,+Oakland+CA
 
 enum { QSTATE_IDLE, QSTATE_WAIT_SERVER };
 
